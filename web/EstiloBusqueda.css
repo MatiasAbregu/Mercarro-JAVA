@@ -1,0 +1,135 @@
+html{
+    font-family: 'Akshar', sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    margin: 0px 0px;
+    background-color: #c0c0c0;
+    padding: 0.1rem;
+    box-shadow: 0px 2px 10px black;
+}
+section{
+    min-height: calc(100vh - 1.3rem - 100px);  
+}
+
+h1{
+    font-size: 25px;
+    text-decoration: underline black;
+}
+
+#Texto{
+    font-size: 20px;
+}
+
+#logo{
+    padding: 2px 5px;
+    height: 100px;
+}
+
+header input{
+    font-family: 'Akshar', sans-serif;
+    font-size: 1.3rem;
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 180px;
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 600px;
+    height: 30px;
+    text-align: center;
+}
+
+#lupa{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    margin-left: 800px;
+    margin-top: -70px;
+    background-color: #c0c0c0;
+    border-radius: 50px;
+}
+
+.imagenL{
+    height: 25px;
+}
+
+#lupa:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+#carrito{
+    font-size: 1.3rem;
+    position: absolute;
+    margin-left: 860px;
+    margin-top: -74px;
+    background-color: #c0c0c0;
+    border: 0px;
+    border-radius: 30px;
+    transition: 0.5s ease;
+}
+
+.imagenC{
+    height: 43px;
+}
+
+#carrito:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+header p{
+    font-family: 'Akshar', sans-serif;
+    font-size: 1.3rem;
+    margin-left: 930px;
+    margin-top: -63px;
+    position: absolute;
+}
+
+#Cerrar{
+    font-family: 'Akshar', sans-serif;
+    font-size: 1.3rem;
+    padding: 5px 5px;
+    position: absolute;
+    margin-left: 1200px;
+    margin-top: -69px;
+    background-color: white;
+    border: 1px solid black;
+    transition: 0.3s ease;
+}
+
+#Cerrar:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+body section article{
+    padding-left: 8px;
+}
+
+footer{
+    height: 100px;
+    color: white;
+    background-color: black;
+}
+
+footer p{
+    font-size: 18px;
+    padding-left: 10px;
+    float: left;
+}
+
+footer a{
+    color: white;       
+    font-size: 18px;
+    padding-right: 10px;
+    float: right;
+    transition: 0.3s ease;
+}
+
+footer a:hover{
+    color: red;
+}

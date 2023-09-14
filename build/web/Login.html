@@ -1,0 +1,52 @@
+<!--
+    Author: Matias Abregú
+  -->
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Mercarro - Login</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="EstiloLogin.css"/> 
+        <link rel="shortcut icon" href="img/Mercarrologo.ico">
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+
+        <header>
+            <img src="img/Mercarrologo.png"/>
+            <h1>Iniciar Sesión - Mercarro</h1>
+            <p>¿No tienes una cuenta?</p>
+            <a href="Registrarse.html">Crear Cuenta</a>        
+        </header>
+
+        <section>            
+            <form action="IniciarSesion" method="post">
+
+                <article>
+                    <label for="IDUsuario" id="LabelUsuario">Nombre de Usuario o Email: </label>
+                    <input id="IDUsuario" type="text" name="UsuarioOEmail" placeholder="Ingrese el Nombre de Usuario o Email aqui" required/>
+                    <br>
+                    <label for="Contraseña" id="LabelContra">Contraseña: </label>
+                    <input id="Contraseña" type="password" name="contra" placeholder="Ingrese la Contraseña aqui" required/>
+                    <br>
+                    <button type="submit" id="BotonIniciar">Iniciar Sesión</button>
+                </article>
+
+            </form>          
+        </section>
+
+        <footer>
+            <br>
+            <p>Derechos Reservados a Matias Abregú ®</p>    
+            <br>
+            <a target="blank" href="https://api.whatsapp.com/send?phone=3512753590">Contactame aqui</a>
+        </footer>
+
+    </body>
+
+</html>

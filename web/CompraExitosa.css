@@ -1,0 +1,43 @@
+html{
+    font-family: 'Akshar', sans-serif;
+}
+
+body{
+    margin: 0px;
+}
+
+section{
+    margin: 25px 0px 0px 25px;
+    background-color: #c0c0c0;
+    width: 500px;
+    padding-left: 60px;
+    padding-bottom: 30px;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+p{
+    font-size: 1.3rem;
+}
+
+button{
+    font-family: 'Akshar', sans-serif;
+    padding: 5px 30px;
+    font-size: 1.2rem;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+button:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
